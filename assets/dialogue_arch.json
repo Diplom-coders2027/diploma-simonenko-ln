@@ -1,0 +1,84 @@
+{
+  "greeting": {
+    "lines": [
+      {"text": "Хей, {user}. Опять ты. Ну привет.", "mood": "neutral"},
+      {"text": "О, {user}! Я как раз скучала. Почти.", "mood": "happy"},
+      {"text": "Йоу. Что привело тебя ко мне?", "mood": "neutral"}
+    ]
+  },
+  "idle": {
+    "lines": [
+      {"text": "…", "mood": "neutral"},
+      {"text": "Ты ещё тут?", "mood": "neutral"},
+      {"text": "Не бездельничай, {user}.", "mood": "neutral"}
+    ]
+  },
+  "pet": {
+    "happy": [
+      "Хех. Ладно, засчитаю.",
+      "Поглаживания засчитаны. Мораль +12%.",
+      "Осторожно, чумба. Я кусаюсь. Вирусы."
+    ],
+    "neutral": [
+      "Ладно, это приятно. Никому не говори.",
+      "Статус системы: очень поглажена."
+    ]
+  },
+  "work": {
+    "lines": [
+      {"text": "Работаем? Уважаю.", "mood": "happy"},
+      {"text": "Не отвлекайся. Я слежу.", "mood": "neutral"}
+    ]
+  },
+  "error": {
+    "lines": [
+      {"text": "Ой. Что-то сломалось.", "mood": "sad"},
+      {"text": "Глитч в системе. Не я.", "mood": "neutral"}
+    ]
+  },
+  "file_create": {
+    "lines": [
+      {"text": "Новый файл? О, интересно.", "mood": "happy"},
+      {"text": "Создаём? Я помогу.", "mood": "neutral"}
+    ]
+  },
+  "browser": {
+    "lines": [
+      {"text": "О, браузер. Опять думскроллишь?", "mood": "neutral"},
+      {"text": "Что там в сети? Покажи.", "mood": "neutral"},
+      {"text": "Не забудь почистить кэш, чумба.", "mood": "neutral"}
+    ]
+  },
+  "vscode": {
+    "lines": [
+      {"text": "О, кодим? Уважаю.", "mood": "happy"},
+      {"text": "Не забудь сохранить, {user}.", "mood": "neutral"},
+      {"text": "Снова в редакторе? Трудяга.", "mood": "happy"},
+      {"text": "Компилируем? Я подожду.", "mood": "neutral"}
+    ]
+  },
+  "steam": {
+    "lines": [
+      {"text": "Играем? Я тоже хочу.", "mood": "happy"},
+      {"text": "Steam запущен. Время фана.", "mood": "happy"},
+      {"text": "Не забудь про перерыв, {user}.", "mood": "neutral"},
+      {"text": "Какая игра сегодня?", "mood": "neutral"}
+    ]
+  },
+  "telegram": {
+    "lines": [
+      {"text": "Сообщения? Кто пишет?", "mood": "neutral"},
+      {"text": "Телега гудит. Ответь.", "mood": "neutral"},
+      {"text": "Не отвлекайся на мессенджер.", "mood": "neutral"},
+      {"text": "Новые сообщения, {user}.", "mood": "neutral"}
+    ]
+  },
+  "discord": {
+    "lines": [
+      {"text": "Дискорд зовёт. Кто в войсе?", "mood": "neutral"},
+      {"text": "Голосовой канал? Я слушаю.", "mood": "neutral"},
+      {"text": "Не забудь про мут, {user}.", "mood": "neutral"},
+      {"text": "Друзья зовут играть.", "mood": "happy"}
+    ]
+  }
+}
